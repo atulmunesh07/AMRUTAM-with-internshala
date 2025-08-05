@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Outfit:wght@100..900&family=Playwrite+HU:wght@100..400&family=Special+Gothic+Expanded+One&display=swap');
+@import "tailwindcss";
+
+@theme{
+  --color-primary:#F84565;
+  --color-primary-dull:#D63854
+}
+
+*{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #787777 #1e1e1e;
+}
+
+body{
+   color: white;
+   background-color: rgb(2, 2, 2);
+}
+
+.text1{
+  font-family: "Libertinus Serif", serif ;
+}
